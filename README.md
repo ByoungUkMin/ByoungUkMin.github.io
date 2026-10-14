@@ -1,4 +1,4 @@
-# ByungUkMin.github.io
+# ByoungUkMin.github.io
 
 Personal academic homepage of Byounguk Min, served by GitHub Pages.
 
