@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Byounguk Min is a Ph.D. student in Computer Science at Purdue University working on intermittent computing, energy-harvesting systems, and compiler-architecture co-design." />
+  <title>Byounguk Min | Purdue CS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div id="layout-content">
+    <header class="profile">
+      <img class="profile-photo" src="images/profile.jpg" alt="Profile photo of Byounguk Min" />
+      <div>
+        <h1>Byounguk Min <span class="korean-name">민병욱</span></h1>
+        <p class="profile-title">Ph.D. Student, Department of Computer Science, Purdue University</p>
+        <p class="profile-meta">305 N. University Street, West Lafayette, IN 47907</p>
+        <p class="profile-meta">min87 [at] purdue [dot] edu</p>
+        <div class="profile-links" aria-label="Profile links">
+          <a href="files/CV.pdf" target="_blank" rel="noopener noreferrer">CV</a>
+          <a href="https://scholar.google.com/citations?hl=en&user=iLXkGJEAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+          <a href="https://github.com/ByungUkMin" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </header>
+
+    <nav class="nav" aria-label="Page sections">
+      <a href="#about">About</a>
+      <a href="#news">News</a>
+      <a href="#publications">Publications</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#personal">Personal</a>
+    </nav>
+
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I am a Ph.D. student in Computer Science at Purdue University, advised by
+          <a href="https://www.cs.purdue.edu/homes/chjung/" target="_blank" rel="noopener noreferrer">Prof. Changhee Jung</a>
+          in the <a href="https://www.cs.purdue.edu/homes/chjung/" target="_blank" rel="noopener noreferrer">CompArch</a> group.
+          My research lies at the intersection of computer architecture and compilers, with a focus on
+          <strong>intermittent computing</strong> for battery-less energy-harvesting systems.
+          I work on making GPUs and nonvolatile processors practical under frequent power failures:
+          enabling intermittent AI inference on GPUs, equipping nonvolatile processors with volatile caches,
+          and building simulation infrastructure that models power failures, capacitor dynamics, and checkpoint/restart behavior.
+        </p>
+        <p>
+          Before Purdue, I received my M.S. in Computer Science from Yonsei University, advised by
+          <a href="https://elc.yonsei.ac.kr/" target="_blank" rel="noopener noreferrer">Prof. Bernd Burgstaller</a>,
+          where I worked on persistent lock-free data structures for non-volatile memory and non-blocking synchronization under
+          relaxed memory consistency models. I received my B.S. in Computer Science from Sungkyunkwan University.
+        </p>
+
+        <h3>Education</h3>
+        <ul class="experience-list">
+          <li>
+            <span class="experience-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 10l9-5 9 5-9 5-9-5z"/><path d="M7 12v5c0 1.5 2.5 3 5 3s5-1.5 5-3v-5"/><path d="M21 10v6"/></svg>
+            </span>
+            <span>
+              <span class="experience-role">Ph.D. in Computer Science, Purdue University</span>
+              <span class="experience-meta">Aug. 2021 &ndash; Present &middot; Advisor: Prof. Changhee Jung</span>
+            </span>
+          </li>
+          <li>
+            <span class="experience-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 10l9-5 9 5-9 5-9-5z"/><path d="M7 12v5c0 1.5 2.5 3 5 3s5-1.5 5-3v-5"/><path d="M21 10v6"/></svg>
+            </span>
+            <span>
+              <span class="experience-role">M.S. in Computer Science, Yonsei University</span>
+              <span class="experience-meta">Mar. 2019 &ndash; Feb. 2021 &middot; Advisor: Prof. Bernd Burgstaller</span>
+            </span>
+          </li>
+          <li>
+            <span class="experience-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M3 10l9-5 9 5-9 5-9-5z"/><path d="M7 12v5c0 1.5 2.5 3 5 3s5-1.5 5-3v-5"/><path d="M21 10v6"/></svg>
+            </span>
+            <span>
+              <span class="experience-role">B.S. in Computer Science, Sungkyunkwan University</span>
+              <span class="experience-meta">Mar. 2013 &ndash; Feb. 2019</span>
+            </span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="news">
+        <h2>News</h2>
+        <ul class="compact-list">
+          <li><span class="date">Jul. 2026</span> Our paper <em>iGPU: Enabling GPUs for Intermittent AI on Batteryless Systems</em> is accepted to <strong>MICRO'26</strong>. See you in Athens!</li>
+          <li><span class="date">2026</span> Our paper <em>Achieving Speculative Intermittent Computation on Commodity Energy Harvesting Hardware</em> is accepted to <strong>EMSOFT'26</strong>.</li>
+          <li><span class="date">Mar. 2025</span> Our paper <em>WarmCache: Exploiting STT-RAM Cache for Low-Power Intermittent Systems</em> is accepted to <strong>ISCA'25</strong>.</li>
+          <li><span class="date">Mar. 2024</span> Our paper <em>IntOS: Persistent Embedded Operating System and Language Support for Multi-threaded Intermittent Computing</em> is accepted to <strong>OSDI'24</strong>.</li>
+          <li><span class="date">Aug. 2021</span> Started my Ph.D. at Purdue University.</li>
+        </ul>
+      </section>
+
+      <section id="publications">
+        <h2>Publications</h2>
+        <p class="note">
+          <span class="tag">[top-tier]</span> marks venues ranked as top-tier by
+          <a href="https://csrankings.org/" target="_blank" rel="noopener noreferrer">csrankings.org</a>.
+        </p>
+        <ul class="paper-list">
+
+          <li>
+            <span class="venue">[MICRO'26]</span>
+            <span class="paper-title">iGPU: Enabling GPUs for Intermittent AI on Batteryless Systems</span>
+            <span class="tag">[top-tier]</span>
+            <div class="paper-meta">
+              <strong>Byounguk Min</strong>, Yilun Wu, Yuchen Zhou, Kas&#305;m Sinan Y&#305;ld&#305;r&#305;m, Khakim Akhunov, Jianping Zeng, Jongouk Choi, Wenjie Xiong, Dongyoon Lee, and Changhee Jung<br />
+              <em>The 59th IEEE/ACM International Symposium on Microarchitecture</em>, Athens, Greece, October 2026.
+            </div>
+          </li>
+
+          <li>
+            <span class="venue">[EMSOFT'26]</span>
+            <span class="paper-title">Achieving Speculative Intermittent Computation on Commodity Energy Harvesting Hardware</span>
+            <div class="paper-meta">
+              Yida Zhang, Shao-Yu Huang, <strong>Byounguk Min</strong>, Andrew Inho Park, Gan Fang, Jongouk Choi, and Changhee Jung<br />
+              <em>ACM SIGBED International Conference on Embedded Software</em>, October 2026.
+            </div>
+          </li>
+
+          <li>
+            <span class="venue">[ISCA'25]</span>
+            <span class="paper-title">WarmCache: Exploiting STT-RAM Cache for Low-Power Intermittent Systems</span>
+            <span class="tag">[top-tier]</span>
+            <a class="paper-link" href="https://doi.org/10.1145/3695053.3731049" target="_blank" rel="noopener noreferrer">ACM DL</a>
+            <div class="paper-meta">
+              Noureldin Hassan, <strong>Byounguk Min</strong>, Changhee Jung, Yan Solihin, and Jongouk Choi<br />
+              <em>The 52nd ACM/IEEE International Symposium on Computer Architecture</em>, Tokyo, Japan, June 2025.
+            </div>
+          </li>
+
+          <li>
+            <span class="venue">[OSDI'24]</span>
+            <span class="paper-title">IntOS: Persistent Embedded Operating System and Language Support for Multi-threaded Intermittent Computing</span>
+            <span class="tag">[top-tier]</span>
+            <a class="paper-link" href="https://www.usenix.org/conference/osdi24/presentation/wu-yilun" target="_blank" rel="noopener noreferrer">USENIX</a>
+            <div class="paper-meta">
+              Yilun Wu, <strong>Byounguk Min</strong>, Mohannad Ismail, Wenjie Xiong, Changhee Jung, and Dongyoon Lee<br />
+              <em>The 18th USENIX Symposium on Operating Systems Design and Implementation</em>, Santa Clara, CA, USA, July 2024.
+            </div>
+          </li>
+
+        </ul>
+      </section>
+
+      <section id="teaching">
+        <h2>Teaching</h2>
+        <h3>Purdue University (Teaching Assistant)</h3>
+        <ul class="compact-list">
+          <li><strong>CS 50200: Compiling and Programming Systems</strong> &mdash; Spring 2024, Spring 2025, Spring 2026</li>
+          <li><strong>CS 35200: Compilers: Principles and Practice</strong> &mdash; Fall 2023, Fall 2024, Fall 2025, Fall 2026</li>
+        </ul>
+        <h3>Yonsei University (Teaching Assistant)</h3>
+        <ul class="compact-list">
+          <li><strong>CSI4104: Compiler Design</strong> &mdash; Fall 2019</li>
+          <li><strong>CSI2100: Computer Programming</strong> &mdash; Spring 2019, Spring 2020</li>
+        </ul>
+      </section>
+
+      <section id="personal">
+        <h2>Personal</h2>
+        <p>
+          Outside of research, I enjoy traveling and walking along the coast, rain or shine.
+        </p>
+        <div class="photo-grid">
+          <img src="images/pier.jpg" alt="Byounguk waving on a rainy pier" />
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Last updated: October 2026. Built with plain HTML and CSS.
+    </footer>
+  </div>
+</body>
+</html>
