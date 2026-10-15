@@ -157,7 +157,7 @@ li { margin-bottom: 10px; }
 
 /* Personal */
 .verse {
-  margin: 0 0 18px;
+  margin: 18px 0 0;
   padding: 14px 18px;
   border-left: 3px solid var(--accent);
   background: var(--surface);
